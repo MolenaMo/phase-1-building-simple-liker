@@ -1,20 +1,37 @@
 body {
   margin: 5% 10%;
-  background-color: rgb(29,161,242);
+  /* background-color: rgb(29,161,242); */
+  background-image: linear-gradient(to bottom right,purple, rgb(35, 35, 135));
 }
 
 .like-glyph {
-  cursor: pointer;
+  cursor:crosshair;
+}
+article.media-post{
+
+  box-shadow: 3px 3px  rgb(94, 9, 107), -0.5em  0 .4em rgb(184, 108, 184);
+}
+
+article.media-post p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.like{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body h1 {
   color: #FFF;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 body > header {
   margin-bottom: 5%;
+  
 }
-
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 article.media-post {
   border: solid 1px #000;
   margin: 2% 3%;
@@ -22,13 +39,13 @@ article.media-post {
 }
 
 article.media-post > p {
-  background-color: rgba(0,123,255,0.25);
+  background-color: rgba(92, 21, 223, 0.389);
   padding: 1em 2em;
 }
 
 article.media-post > header {
   padding: 1em 2em;
-  background-color: rgb(225,232,237);
+  background-color: rgb(219, 19, 196);
 }
 
 article.media-post > footer {
